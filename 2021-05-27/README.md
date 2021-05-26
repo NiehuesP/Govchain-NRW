@@ -1,1 +1,3 @@
-Live Demo für assoziierte Partner und Blockchain interessierte
+Sammlung der Präsentationen und Info der Live Demo für assoziierte Partner und Blockchain-Interessierte vom 27.Mai 2021  
+
+
