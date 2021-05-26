@@ -1,4 +1,4 @@
-![logo](common/images/govchain-logo-blau-01.png "GovChain NRW")
+![logo-govchain](common/images/govchain-logo-blau-01.png "GovChain NRW")
 
 Mit dem Projekt https://govchain-nrw.de/ zu ersten realen Blockchain Use Cases in der öffentlichen Verwaltung    
 
@@ -14,3 +14,5 @@ Häufig wird für die Digitalisierung kommunaler Prozesse zusätzlich zur Blockc
 Damit die vielversprechende Distributed-Ledger-Technologie nutzenstiftend für verschiedene Anwendungsszenarien in den Kommunen eingesetzt werden kann, ist es sinnvoll, dass in NRW eine ‚Private Government Blockchain-Infrastruktur‘ (govchain nrw) gepaart mit einem IoT-Hub in einem privaten, kommunalen Netzwerk geschaffen wird. Dann wird es möglich organisationsübergreifend für alle Kommunen in NRW die Potenziale der DLT zu heben und effizientere und auch papierlose Prozesse digital zu realisieren. Die verteilte Architektur der Blockchain- und IoT-Technologie, die unter Beteiligung der kommunalen Rechenzentren in NRW (KDN und ProVitako) als Reallabor aufgebaut wird, kann helfen, die Digitalisierung effizient zu gestalten und zu beschleunigen. Um die skizzierte Government Blockchain Infrastructure als Reallabor zu konzipieren, zu entwickeln und auszurollen, übernimmt die Stadt Aachen gemeinsam mit der regio iT die Initiative, um im Rahmen der Modellkommunen diese Innovation zu realisieren. 
 
 
+![logo-mwide]( common/images/NRW_MWIDE_RGB.PNG "Logo MWIDE")  
+![logo-modellregion]( common/images/Digitales_NRW_Logo_Modellregionen.png "Logo Digitale Modellregion Aachen")  
