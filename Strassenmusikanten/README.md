@@ -2,7 +2,7 @@
 
 Um in der Innenstadt in Aachen auf öffentlichen Plätzen musizieren zu können, bedarf es einer Genehmigung des Ordnungsamts der Stadt Aachen, die der Künstler in Form eines Papierdokuments mit sich führen und bei Nachfrage vorzeigen muss. Dieser Use Case wurde im Projekt govchain nrw mit Hilfe von Self Sovereign Identity Technologie (SSI) umgesetzt. Er ist einer von vier Use Cases der Stadt Aachen, die alle auf SSI und der SSI-App "Lissi" basieren.  
 
-![Strassenmusikanten-Formular](Strassenmusikanten/Images/Strassenmusikanten-Formular-01.png "Formular Strassenmusikanten")
+![Strassenmusikanten-Formular](Images/Strassenmusikanten-Formular-01.png "Formular Strassenmusikanten")
   
 ### Der bisherige analoge Prozess gliedert sich sich in folgende Schritte.  
 
