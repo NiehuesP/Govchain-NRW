@@ -8,8 +8,11 @@ Um in der Innenstadt in Aachen auf öffentlichen Plätzen musizieren zu können,
 
 1. Der Straßenkünstler beantragt in einem Präsenztermin beim Ordnungsamt die Genehmigung in der Stadt zu musizieren.
 2. Der Strassenkünster kommt zum vereinbarten Termin zum Ordnunsamt und spricht dort vor.
-3. Das Amt stellt nach Prüfung eine Genehmigung in Form eines Papierformular aus und gibt diese dem Künstler mit.  
-4. Der Künstler muss auf Nachfrage diese Genehmigung zur Ausübung seiner Darbietung vorweisen.  
+3. Das Amt prüft den Wunsch. 
+4. Das Amt stellt eine Genehmigung in Form eines Papierformular aus.  
+5. Das Amt übergibt die Genehmigung dem Künstler. 
+6. Eine berechtigte Person fordert den Künstler auf, seine Genehmigung vorzuweisen.  
+7. Der Künstler muss auf Nachfrage diese Genehmigung zur Ausübung seiner Darbietung vorweisen/aushändigen.  
 
 ![Strassenmusikanten-Analoger-Prozess](Images/Strassenmusikanten-Interaktionsdiagramm-01.png "Analoger Prozess Strassenmusikanten")
 
@@ -26,7 +29,7 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
 1. Der Straßenkünstler beantragt in einem Präsenztermin beim Ordnungsamt die Genehmigung in der Stadt zu musizieren.
 2. Der Strassenkünster kommt zum vereinbarten Termin zum Ordnunsamt und spricht dort vor.
 3. Das Amt stellt nach Prüfung eine Genehmigung in Form eines SSI Verifiable Credential aus und schickt dieses an das SSI-Wallet des Künstlers.
-4. Das Ordunungsamt fragt in Form eines Proof-Requests die Inhalte des Verfiable Credential ab und prüft diese nach Übertragung automatisiert auf Echtheit, Gültigkeit und Manipulation.  
+4. Das Ordnungsamt fragt in Form eines Proof-Requests die Inhalte des Verfiable Credential ab und prüft diese nach Übertragung automatisiert auf Echtheit, Gültigkeit und Manipulation.  
   
   
 ![Strassenmusikanten-Datenmodell](Images/Strassenmusikanten-Datenmodell-01.png "Datenmodell Strassenmusikanten")  
