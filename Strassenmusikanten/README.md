@@ -39,16 +39,38 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
 
 ![Strassenmusikanten-Ausstellen](Images/Strassenmusikanten-Interaktionsdiagramm-Ausstellen-01.png "Ausstellen Strassenmusikanten")
 
+1. Der Straßenkünstler beantragt in einem Präsenztermin beim Ordnungsamt die Genehmigung in der Stadt zu musizieren.
+2. Der Strassenkünster kommt zum vereinbarten Termin zum Ordnunsamt und spricht dort vor.
+3. Das Amt prüft den Wunsch.
+4. Das Amt stellt mit Hilfe einer Webseite die Genehmigung (personenbezogene Daten).
+5. Das System verkankert die relevanten Informationen in der Blockchain (keine personenbezogenen Daten). 
+6. Das Amt überträg die Genehmigung (personenbezogene Daten) mit Hilfe der Webseite an den Künstler
+7. Der Künstler kann die Informationen prüfen und auf Wunsch in seinem SSI-Wallet speichern.
+
+
 ### Genehmigung prüfen - Interaktionsdiagramm des digitalen Prozesses  
 
 ![Strassenmusikanten-Prüfen](Images/Strassenmusikanten-Interaktionsdiagramm-Prüfen-01.png "Prüfen Strassenmusikanten")
 
+1. Eine berechtigte Person erstellt mit Hilfe einer Webseite eine unabhägige Anfrage.
+2. Die Anfrage wird vom System an das Wallet des Künstlers geschickt (Proof Request).
+3. Der Künstler prüft die Anfrage und genehmigt diese (Proof).
+4. Das System prüft die Inhalte mit Hilfe der Blockchain.
+5. Das System zeigt das Ergebnis der Prüfung an.
 
-### Fazit
+### Fazit und Argumente für den Use Case
 
+- Unterstützung der digitalen Souveränität der Bürger  
+- Verwendung von Konzepten die sich in einem weltweiten Standardisierungsprozess des W3C befinden. Keine proprietäre Lösung.
 - Umsetzung basiert auf frei verfügbarer Software und Smartphone Apps
   - Hyperledger Indy/Aries  
   - Lissi
-- Funktion und Design sind getrennt.
-- Umsetzung unabhängig vom eingesetzten Register einer Kommune.
+- Wachsende Anzahl an SSI-Apps für alle Smartphones. Es ist keine weitere App notwendig.
+- Usecases ist unabhängig vom verwendeten Register einer Kommune.
+- Funktion und Design sind getrennt
+- Das Design kann jede Kommune in NRW einfach selber anpassen.
+- Keine zusätzliche Hürden durch nicht notwenige/übertriebene Sicherheit.
+- Einfache Integration in bestehende Webseiten/Portale der Kommunen möglich.
+- Kein Eingriff in etablierte Prozesse der Behörde. Minimalinvasiv.
+- Kann als zusätzliches digitales Angebot neben dem Papierprozess angeboten werden. 
 
