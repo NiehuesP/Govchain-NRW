@@ -10,6 +10,9 @@ Um in der Innenstadt in Aachen auf öffentlichen Plätzen musizieren zu können,
 2. Der Strassenkünster kommt zum vereinbarten Termin zum Ordnunsamt und spricht dort vor.
 3. Das Amt stellt nach Prüfung eine Genehmigung in Form eines Papierformular aus und gibt diese dem Künstler mit.  
 4. Der Künstler muss auf Nachfrage diese Genehmigung zur Ausübung seiner Darbietung vorweisen.  
+
+![Strassenmusikanten-Analoger-Prozess](Images/Strassenmusikanten-Interaktionsdiagramm-01.png "Analoger Prozess Strassenmusikanten")
+
   
 #### Hintergründen und Überlegungen zu diesem Prozess 
 Es handelt sich um einen relativ einfachen Prozess und einen Verwaltungsakt mit geringen Fallzahlen pro Jahr. Es sind daher durch die Digitalisierung weder besonders große Einspaarungen zu erwarten, noch vereinfachen oder verkürzen sich die Abläufe in der Verwaltung signifikant. Die wesentlichen Kritikpunkte an dem bisherigen Ablauf sind:  
@@ -35,7 +38,7 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
 
 ### Genehmigung prüfen - Interaktionsdiagramm des digitalen Prozesses  
 
-
+![Strassenmusikanten-Prüfen](Images/Strassenmusikanten-Interaktionsdiagramm-Prüfen-01.png "Prüfen Strassenmusikanten")
 
 
 ### Fazit
