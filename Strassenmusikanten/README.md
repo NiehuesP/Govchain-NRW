@@ -32,8 +32,8 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
 ### Fazit
 
 - Umsetzung basiert auf frei verfügbarer Software und Smartphone Apps
-  - Hyperledger Indy/Aries
-  -Lissi
+  - Hyperledger Indy/Aries  
+  - Lissi
 - Funktion und Design sind getrennt.
 - Umsetzung unabhängig vom eingesetzten Register einer Kommune.
 
