@@ -28,3 +28,12 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
   
 ![Strassenmusikanten-Datenmodell](Images/Strassenmusikanten-Datenmodell-01.png "Datenmodell Strassenmusikanten")  
 
+
+### Fazit
+
+- Umsetzung basiert auf frei verfügbarer Software und Smartphone Apps
+  - Hyperledger Indy/Aries
+  -Lissi
+- Funktion und Design sind getrennt.
+- Umsetzung unabhängig vom eingesetzten Register einer Kommune.
+
