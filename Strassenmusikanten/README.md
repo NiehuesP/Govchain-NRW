@@ -9,10 +9,13 @@ Um in der Innenstadt in Aachen auf öffentlichen Plätzen musizieren zu können,
 3. Das Amt stellt nach Prüfung eine Genehmigung in Form eines Papierformular aus und gibt diese dem Künstler mit.  
 4. Der Künstler muss auf Nachfrage diese Genehmigung zur Ausübung seiner Darbietung vorweisen.  
   
-Hintergründen und Überlegungen zu diesem Prozess. Es handelt sich um einen relativ einfachen Prozess und Verwaltungsakt mit geringen Fallzahlen. Es sind daher durch die Digitalisierung weder besonders große Einspaarungen zu erwarten, noch vereinfachen oder verkürzen sich die Abläufe in der Verwaltung. Die wesentlichen Kritikpunkte an dem bisherigen Ablauf sind:  
+#### Hintergründen und Überlegungen zu diesem Prozess 
+Es handelt sich um einen relativ einfachen Prozess und einen Verwaltungsakt mit geringen Fallzahlen pro Jahr. Es sind daher durch die Digitalisierung weder besonders große Einspaarungen zu erwarten, noch vereinfachen oder verkürzen sich die Abläufe in der Verwaltung signifikant. Die wesentlichen Kritikpunkte an dem bisherigen Ablauf sind:  
 - Die papierbasierten Formulare sind relativ einfach zu fälschen.
 - Die Ausdrucke können schnell verloren gehen. 
 - Der Ausdruck von Formularen auf Papier ist für Dokumente mit kurzer Lebenszeit (1-2 Wochen) energetisch und umwelttechnisch ungünstiger als ein digitales Dokument. 
+
+Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aachen entschieden. Je einfacher und unkritischer der Verwaltungsablauf ist, desto weniger Kritik und Widerstand ist zu erwarten und desto einfacher ist eine erste exemplarische Umsetzung möglich. Die reale Umsetzung und spätere Nutzung soll nach unserer Überlegung bei Bürgern und Verwaltung zum Nachdenken anregen und so zu einer Keimzelle für weitere, im Idealfall relevantere Use Cases werden.   
   
 ### Der digitalisierte Prozess gliedert sich wie folgt.  
 1. Der Straßenkünstler beantragt in einem Präsenztermin beim Ordnungsamt die Genehmigung in der Stadt zu musizieren.
