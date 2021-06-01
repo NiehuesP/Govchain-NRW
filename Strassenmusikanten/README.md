@@ -25,4 +25,6 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
 3. Das Amt stellt nach Prüfung eine Genehmigung in Form eines SSI Verifiable Credential aus und schickt dieses an das SSI-Wallet des Künstlers.
 4. Das Ordunungsamt fragt in Form eines Proof-Requests die Inhalte des Verfiable Credential ab und prüft diese nach Übertragung automatisiert auf Echtheit, Gültigkeit und Manipulation.  
   
+  
+![Strassenmusikanten-Datenmodell](Images/Strassenmusikanten-Datenmodell-01.png "Datenmodell Strassenmusikanten")  
 
