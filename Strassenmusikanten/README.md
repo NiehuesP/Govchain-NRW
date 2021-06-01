@@ -29,11 +29,11 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
 ![Strassenmusikanten-Datenmodell](Images/Strassenmusikanten-Datenmodell-01.png "Datenmodell Strassenmusikanten")  
 
 
-### Genehmigung ausstellen Interaktionsdiagramm des digitalen Prozesses  
+### Genehmigung ausstellen - Interaktionsdiagramm des digitalen Prozesses  
 
+![Strassenmusikanten-Ausstellen](Images/Strassenmusikanten-Interaktionsdiagramm-Ausstellen-01.png "Ausstellen Strassenmusikanten")
 
-
-### Genehmigung prüfen Interaktionsdiagramm des digitalen Prozesses  
+### Genehmigung prüfen - Interaktionsdiagramm des digitalen Prozesses  
 
 
 
