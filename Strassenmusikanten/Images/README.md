@@ -1,0 +1,1 @@
+Bilder zum Prozess "Strassenmusikanten"
