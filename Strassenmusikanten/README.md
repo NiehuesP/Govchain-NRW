@@ -29,6 +29,15 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
 ![Strassenmusikanten-Datenmodell](Images/Strassenmusikanten-Datenmodell-01.png "Datenmodell Strassenmusikanten")  
 
 
+### Genehmigung ausstellen Interaktionsdiagramm des digitalen Prozesses  
+
+
+
+### Genehmigung prüfen Interaktionsdiagramm des digitalen Prozesses  
+
+
+
+
 ### Fazit
 
 - Umsetzung basiert auf frei verfügbarer Software und Smartphone Apps
