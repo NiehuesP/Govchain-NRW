@@ -54,9 +54,10 @@ Das Projekt hat sich aber gerade aus diesen Gründen für eine Umsetzung in Aach
 
 1. Eine berechtigte Person erstellt mit Hilfe einer Webseite eine unabhägige Anfrage.
 2. Die Anfrage wird vom System an das Wallet des Künstlers geschickt (Proof Request).
-3. Der Künstler prüft die Anfrage und genehmigt diese (Proof).
-4. Das System prüft die Inhalte mit Hilfe der Blockchain.
-5. Das System zeigt das Ergebnis der Prüfung an.
+3. Der Künstler prüft die Anfrage und genehmigt diese in seinem Wallet.
+4. Der Künstler schickt die Antwort (Proof) an die Software der berechtigten Person (Agent).
+5. Das System prüft die Inhalte mit Hilfe der Blockchain.
+6. Das System zeigt das Ergebnis der Prüfung an.
 
 ### Fazit und Argumente für den Use Case
 
