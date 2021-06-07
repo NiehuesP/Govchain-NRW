@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-lg bg-white">
+  <a href="#">
+  <span class="-brand">
+    <img src="./assets/img/aachen/Stadt%20Aachen%20Logo.png" alt="Stadt Aachen" style="width:130px; margin: -15px 20px -15px 50px;">
+  </span>
+  </a>
+  <a class="navbar-brand" href="#"><h3>Musikdarbietung von Straßenkünstlern</h3></a>
+  <div class="col-md-3 offset-md-4" *ngIf="authService.isLoggedIn()">
+    <span *ngIf="currentRoute != '/connection'" class="clickable user-icon">
+      <a routerLink="/connection" routerLinkActive="active">
+        <img src="./assets/img/Icon%20awesome-user-check-1.png" />
+      </a>
+    </span>
+    <span *ngIf="currentRoute == '/connection'" class="clickable user-icon-clicked">
+      <a routerLink="/connection" routerLinkActive="active">
+        <img src="./assets/img/Icon%20awesome-user-check.png" />
+      </a>
+    </span>
+    <span *ngIf="currentRoute != '/connection-pending'" class="clickable user-icon">
+      <a routerLink="/connection-pending" routerLinkActive="active">
+        <img src="./assets/img/Icon%20awesome-user-clock.png" />
+      </a>
+    </span>
+    <span *ngIf="currentRoute == '/connection-pending'" class="clickable user-icon-clicked">
+      <a routerLink="/connection-pending" routerLinkActive="active">
+        <img src="./assets/img/Icon%20awesome-user-clock-1.png" />
+      </a>
+    </span>
+    <span class="clickable user-icon" (click)="createConnection()">
+      <img src="./assets/img/Icon%20awesome-user-plus.png" />
+    </span>
+    <span class="clickable logout" (click)="logout()">
+      <img src="./assets/img/Icon%20open-account-logout.png" />
+    </span>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+  </div>
+</nav>
+<div class="app">
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+  <div style="width: 100%;">
+    <a style="margin-right: 100px">IMPRESSUM</a>
+    |
+    <a style="margin-left: 100px">DATENSCHUTZ</a>
+    <span style="float: right; margin-right: 25px;">
+      © STADT AACHEN
+    </span>
+  </div>
+
+</footer>

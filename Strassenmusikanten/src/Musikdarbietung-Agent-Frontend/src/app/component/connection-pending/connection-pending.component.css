@@ -1,0 +1,33 @@
+.search {
+  height: 120px;
+  position: relative;
+  border-bottom: 1px solid #cdcdcd;
+  background: #eeeeee;
+}
+
+.search div {
+  top: 50%;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.search mat-form-field {
+  top: 50%;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.connection-text {
+  margin: 5px 0 0 65px;
+}
+
+.search-list {
+  border: 1px solid #eeeeee;
+  padding: 0;
+}
+
+::ng-deep.mat-input-element {
+  padding-left: 7px !important;
+}

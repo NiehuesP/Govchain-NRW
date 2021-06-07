@@ -1,0 +1,61 @@
+<div class="top-menu">
+  <div class="col-md-1">
+    <a [routerLink]="['/connection']" routerLinkActive="active">
+      <img src="assets/img/Icon%20feather-arrow-left-circle.png" />
+    </a>
+  </div>
+  <div class="col-md-4 connection-text">
+    <h4>Zurück zur Übersicht</h4>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6" style="padding: 0 25px 0 90px">
+    <div class="card detail-card">
+      <div class="col-md-2">
+        <img style="height:150px; margin: 50px" src="assets/img/Icon%20awesome-user-alt.png">
+      </div>
+      <div style="margin-left: 36%; max-width: 58%">
+        <span class="bold" style="font-size: 18px;">{{name}}</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6" style="padding: 0 90px 0 25px">
+    <div class="card detail-card">
+      <div class="col-md-2">
+        <img style="height:150px; margin: 50px" src="assets/img/Icon%20awesome-clock.png">
+      </div>
+      <div style="margin-left: 36%" *ngIf="this.state === 'COMPLETE' || this.state === 'RESPONDED' else pending">
+        <p class="bold" style="font-size: 18px; color: #FFDB00">Aktive Verbindung</p>
+        <a class="clickable" (click)="deleteConnection();" style="color: #FF5252">Verbindung löschen</a>
+      </div>
+      <ng-template #pending>
+        <div style="margin-left: 36%">
+          <p class="bold" style="font-size: 18px; color: #FFDB00">Ausstehende Verbindung</p>
+          <a class="clickable" (click)="deleteConnection();" style="color: #FF5252">Verbindung löschen</a>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>
+
+<div class="top-menu" *ngIf="this.state === 'COMPLETE' || this.state === 'RESPONDED'">
+  <div class="col-md-1" style="margin-left: 15px;">
+    <img  src="assets/img/Gruppe%2058.png" />
+  </div>
+  <div class="col-md-4 connection-text">
+    <h4 class="bold">Bescheinigungen</h4>
+  </div>
+  <div class="offset-md-2">
+    <button class="approve-btn clickable" (click)="openMusikdarbietung();">Musikdarbietung ausstellen</button>
+  </div>
+</div>
+
+<mat-list class="search-list">
+  <mat-list-item style="height: 75px;" *ngFor="let credential of acceptedCredentials">
+    <span style="margin-left: 10px; width: 650px">{{credential.credDefAlias}}</span>
+    <div class="offset-md-6">
+      <mat-icon class="clickable material-icons color_grey" style="margin: 0 50px 0 0" (click)="deleteCredential(credential.id)">delete_forever</mat-icon>
+    </div>
+  </mat-list-item>
+</mat-list>
