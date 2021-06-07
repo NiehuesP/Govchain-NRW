@@ -1,0 +1,11 @@
+<div style="text-align: center" *ngIf="isProofActive == false;">
+  <img src="assets/img/Gruppe%202697.png" style="height: 245px; margin: 40px 0 30px 0;" *ngIf="isQrGenerationActive == false;"/>
+  <app-qr-code *ngIf="isQrGenerationActive == true;" style="text-align: center;" (messageEvent)="receiveProofStateQr($event)"></app-qr-code>
+  <h4 style="padding: 0 20% 40px 20%;">Generieren Sie einen QR-Code, um die Genehmigung eines Straßenmusikanten zu überprüfen. Der Künstler muss den erstellten QR-Code mit Hilfe der Lissi-App scannen, damit die Genehmigung übertragen wird.</h4>
+  <button class="add-btn" mat-raised-button (click)="createProof()">QR-Code generieren</button>
+</div>
+
+<div *ngIf="isProofActive == true;">
+  <app-proof-detail (messageEvent)="receiveProofState($event)"></app-proof-detail>
+</div>
+

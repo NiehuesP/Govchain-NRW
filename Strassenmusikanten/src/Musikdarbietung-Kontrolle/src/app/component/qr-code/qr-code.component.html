@@ -1,0 +1,6 @@
+<img src="{{'data:image/png;base64,' + qr}}" style="height: 245px; width: 245px; margin: 40px 0 30px 0;" *ngIf="qr !== '' && qr !== undefined; else load">
+
+<ng-template #load>
+  <img src="assets/img/Gruppe%202697.png" style="height: 245px; margin: 40px 0 30px 0;"><br/>
+  <mat-spinner [diameter]="30" style="position: absolute; margin: -45% 0 0 46%; opacity: 50%;"></mat-spinner>
+</ng-template>
