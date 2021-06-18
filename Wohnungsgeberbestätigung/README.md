@@ -13,7 +13,7 @@ Mit einer Wohnungsgeberbestätigung oder Wohnunsgeberbescheinigung wird einem Mi
 5. Der Sachbearbeiter prüft das Dokument.
 6. Bei positiver Überprüfung aller Angaben ändert der Sachbearbeiter die Einträge im Einwohnerregister. Das Dokument der Wohnungsgeberbestätigung wird anschließend archiviert.
 
-Der letzte Schritt mit der Nummer 7 im Interaktionsdiagramm gehört zum Prozess der Meldebestätigung, der hier für das bessere Verständnis mit abgebildet und in der digitalen Umsetzung des Prozesses integriert ist. 
+Der letzte Schritt mit der Nummer 7 im Interaktionsdiagramm gehört zum Prozess der Meldebestätigung, der hier für das bessere Verständnis mit abgebildet und in der digitalen Umsetzung des Prozesses Wohnungsgeberbestätigung integriert ist. 
 
 7. Der Sachbearbeiter stellt dem Mieter eine Meldebestätigung aus, ändert den Wohnort im Ausweis des Mieters und übergibt die Dokumente dem Mieter.
 
