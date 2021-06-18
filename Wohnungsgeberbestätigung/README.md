@@ -18,4 +18,6 @@ Der letzte Schritt mit der Nummer 7 im Interaktionsdiagramm gehört zum Prozess 
 7. Der Sachbearbeiter stellt dem Mieter eine Meldebestätigung aus, ändert den Wohnort im Ausweis des Mieters und übergibt die Dokumente dem Mieter.
 
 
+![Wohnunsgeberbestätigung-Interaktionsdiagramm-analog](Images/Wohnungsgeberbestätgigung-Interaktionsdiagramm-Analog.png "Wohnungsgeberbestätigung Interaktionsdiagramm analoger Prozess")
+
 
