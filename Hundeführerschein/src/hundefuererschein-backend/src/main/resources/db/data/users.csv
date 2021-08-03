@@ -1,0 +1,2 @@
+username;password;role_name
+admin;{bcrypt}$2y$12$FnqTmJoQFODn4eEOPT2JuuY.zQPmxIWXQKdS66kWsH.9DZjD31YSO;ROLE_ADMIN
