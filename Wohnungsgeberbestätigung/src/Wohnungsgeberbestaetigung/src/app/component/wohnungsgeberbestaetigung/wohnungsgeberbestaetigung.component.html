@@ -1,0 +1,77 @@
+<form style="padding: 30px 50px 40px 50px;">
+  <h3 class="bold">1: Angaben zum Wohnungsgeber</h3>
+  <mat-form-field class="add-input">
+    <mat-label>Name des Wohnungsgebers</mat-label>
+    <input id="nameWohnungsgeber" matInput name="nameWohnungsgeber"
+           autocomplete="off" [(ngModel)]="nameWohnungsgeber">
+  </mat-form-field>
+  <mat-form-field class="add-input">
+    <mat-label>Adresse des Wohnungsgebers</mat-label>
+    <input id="wohnortWohnungsgeber" matInput name="wohnortWohnungsgeber"
+           autocomplete="off" [(ngModel)]="wohnortWohnungsgeber">
+  </mat-form-field>
+  <br/>
+  <br/>
+  <br/>
+  <h3 class="bold">2: Angaben zum Eigentümer</h3>
+  <mat-form-field class="add-input">
+    <mat-label>Name des Eigentümers</mat-label>
+    <input id="nameEigentuemer" matInput name="nameEigentuemer"
+           autocomplete="off" [(ngModel)]="nameEigentuemer">
+  </mat-form-field>
+  <mat-form-field class="add-input">
+    <mat-label>Adresse des Eigentümers</mat-label>
+    <input id="wohnortEigentuemer" matInput name="wohnortEigentuemer"
+           autocomplete="off" [(ngModel)]="wohnortEigentuemer">
+  </mat-form-field>
+  <br/>
+  <br/>
+  <br/>
+  <h3 class="bold">3: Angaben zur beauftragten Person (falls vorhanden)</h3>
+  <mat-form-field class="add-input">
+    <mat-label>Name der beauftragten Person</mat-label>
+    <input id="nameBeauftragt" matInput name="nameBeauftragt"
+           autocomplete="off" [(ngModel)]="nameBeauftragt">
+  </mat-form-field>
+  <mat-form-field class="add-input">
+    <mat-label>Adresse der beauftragten Person</mat-label>
+    <input id="wohnortBeauftragt" matInput name="wohnortBeauftragt"
+           autocomplete="off" [(ngModel)]="wohnortBeauftragt">
+  </mat-form-field>
+  <br/>
+  <br/>
+  <br/>
+  <h3 class="bold">4: Angaben zur Wohnung</h3>
+  <mat-form-field class="add-input">
+    <mat-label>Adresse der Wohnung</mat-label>
+    <input id="adresse" matInput name="adresse"
+           autocomplete="off" [(ngModel)]="adresse">
+  </mat-form-field>
+  <br/>
+  <br/>
+  <br/>
+  <h3 class="bold">5: Angaben zu den Bewohnern</h3>
+  <mat-form-field class="add-input">
+    <mat-label>Namen der Bewohner</mat-label>
+    <input id="einzugsbestaetigung" matInput name="einzugsbestaetigung"
+           autocomplete="off" [(ngModel)]="einzugsbestaetigung">
+  </mat-form-field>
+  <mat-form-field class="add-input">
+    <mat-label>Tag des Einzugs</mat-label>
+    <input id="tagDesEinzugs" matInput readonly [matDatepicker]="picker" name="tagDesEinzugs"
+           autocomplete="off" [(ngModel)]="tagDesEinzugs">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+  <mat-form-field class="add-input">
+    <mat-label>E-Mail Adresse des Mieters</mat-label>
+    <input id="email" matInput name="email"
+           autocomplete="off" [(ngModel)]="email">
+  </mat-form-field>
+  <div style="margin: 30px 0 0 0">
+    <a class="add-btn" (click)="submit();" mat-raised-button style="color: white; font-size: 18px;">Bestätigung senden</a>
+  </div>
+  <ng-template *ngIf="!submitted;">
+    <mat-spinner [diameter]="30"></mat-spinner>
+  </ng-template>
+</form>

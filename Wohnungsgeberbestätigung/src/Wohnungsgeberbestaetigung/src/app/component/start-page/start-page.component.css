@@ -1,0 +1,8 @@
+.add-btn {
+  height: 50px;
+  width: 270px;
+  background: transparent linear-gradient(96deg, #000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  color: #ffdb00;
+  box-shadow: 0px 3px 12px #FFDB0073;
+  border-radius: 50px;
+}

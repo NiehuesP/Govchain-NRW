@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg bg-white" style="background-color: #FFDB00 !important;">
+  <a href="#">
+  <span class="-brand">
+    <img src="./assets/img/aachen/Stadt%20Aachen%20Logo.png" alt="Stadt Aachen" style="width: 65px; margin: 0 0 0 15px;">
+  </span>
+  </a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+  </div>
+</nav>
+<div class="app" style="background-color: #FFDB00" *ngIf="currentRoute == '/home'">
+  <router-outlet></router-outlet>
+</div>
+<div class="app" style="background-color: white" *ngIf="currentRoute != '/home'">
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer" style="background-color: white" *ngIf="currentRoute != '/home'">
+  <div style="width: 100%;">
+    <span style="float: right; margin-right: 25px;">
+      © STADT AACHEN
+    </span>
+  </div>
+</footer>
