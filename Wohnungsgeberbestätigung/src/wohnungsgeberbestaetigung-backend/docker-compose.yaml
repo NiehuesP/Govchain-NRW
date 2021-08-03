@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    image: repo-ae.regioit.de:5050/wohnungsgeberbestaetigung/wohnungsgeberbestaetigung-backend
+    ports:
+      - 80:8080
+    restart: unless-stopped
+    environment:
+      - "JAVA_TOOL_OPTIONS=-Dhttps.proxyHost=proxy.regioit.de -Dhttps.proxyPort=3128 -Dhttp.nonProxyHosts=repo-ae.regioit.de"
+      - "SPRING_DATASOURCE_URL=jdbc:h2:file:~/.h2db/db/wohnungsgeberbestaetigung;DB_CLOSE_DELAY=-1"
+      - "SPRING_DATASOURCE_USERNAME=SA"
+      - "SPRING_DATASOURCE_PASSWORD="
