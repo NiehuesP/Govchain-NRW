@@ -1,0 +1,171 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+.material-icons.color_green { color: #86D968; }
+.material-icons.color_yellow { color: #FFDB00; }
+.material-icons.color_grey { color: #8a8a8a; }
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -12px;
+}
+
+.mat-list >  .mat-list-item:nth-child(2n+1){
+  background-color: #FFFFFF !important;
+}
+.mat-list >  .mat-list-item:nth-child(2n){
+  background-color: #EEEEEE !important;
+}
+.mat-list >  .mat-list-item:nth-child(2n+1):hover{
+  background-color: rgba(255, 219, 0, 0.1) !important;
+}
+.mat-list >  .mat-list-item:nth-child(2n):hover{
+  background-color: rgba(255, 219, 0, 0.1) !important;
+}
+
+.card {
+  box-shadow: 0 3px 12px #00000029 !important;
+  border-radius: 10px !important;
+}
+
+.navbar {
+  width: auto !important;
+  height: 90px !important;
+  background: #FFFFFF 0 0 no-repeat padding-box !important;
+  opacity: 1 !important;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -5px rgba(0, 0, 0, 0.15) !important;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  color: #000000 !important;
+  position: initial !important;
+  padding: 0 !important;
+  margin-left: 60px !important;
+}
+
+.navbar-brand > h3 {
+  margin-top: 10px;
+}
+
+.mat-form-field {
+  .mat-form-field-flex {
+    font: normal normal normal 22px/32px Transit !important;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .mat-form-field-infix {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+  }
+
+  .mat-form-field-underline {
+    background-color: #ffdb00 !important;
+  }
+  .mat-form-field-label {
+    padding-left: 10px;
+  }
+}
+
+
+::ng-deep .mat-form-field.mat-focused {
+  .mat-form-field-flex {
+    font: normal normal normal 22px/32px Transit !important;
+    border-radius: 5px 5px 0 0;
+  }
+  .mat-form-field-infix {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+  }
+  .mat-form-field-underline {
+    background-color: #FFDB00 !important;
+  }
+  .mat-form-field-label {
+    padding-left: 10px;
+  }
+  .mat-form-field-ripple {
+    background-color: #ffdb00 !important;
+  }
+}
+
+::ng-deep.mat-input-element {
+  padding-left: 7px !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  opacity: 70%;
+}
+
+.clickable-list {
+  cursor: pointer;
+}
+
+.logout {
+  background: #FCFCFC;
+}
+
+.logout img {
+  height: 40px;
+}
+
+.user-icon {
+  margin-right: 50px;
+}
+
+.user-icon img {
+  padding: 7px;
+  border-radius: 5px;
+  background: #FFFDEE;
+  height: 45px;
+}
+
+.user-icon-clicked {
+  margin-right: 50px;
+}
+
+.user-icon-clicked img {
+  padding: 7px;
+  border-radius: 5px;
+  background: #3F3F3F;
+  height: 45px;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.close-dialog {
+  float: right;
+  background: #FFFFFF;
+  border: 0;
+}
+
+
+
+
+button:hover, button:focus {
+  outline: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, sans-serif; background-color: white; }
+
+.footer {
+  margin-top: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.footer div {
+  top: 50%;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

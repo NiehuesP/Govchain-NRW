@@ -1,0 +1,16 @@
+.add-btn {
+  height: 70px;
+  width: 280px;
+  background: transparent linear-gradient(96deg, #FEE54B 0%, #FDD900 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0 3px 12px #FFDB0073;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+}
+
+.add-btn-background {
+  height: 70px;
+  width: 290px;
+  background: #FFFCE8 0 0 no-repeat padding-box;
+  border-radius: 50px;
+}
