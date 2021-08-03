@@ -1,0 +1,16 @@
+<button class="close-dialog clickable" (click)="close()"><mat-icon>close</mat-icon></button>
+<div class="add-card">
+  <h3 class="bold" style="margin-bottom: 15px;">Wohnungsgeberbestätigung</h3>
+  <div class="row" *ngIf="proof !== '' && proof !== undefined; else load">
+    <div class="col-md-6" *ngFor="let attribute of proof" style="margin-bottom: 15px">
+      <mat-form-field class="add-input">
+        <mat-label>{{attribute.name}}</mat-label>
+        <input matInput name="{{attribute.name}}" [value]="attribute.value" placeholder="{{attribute.name}}" readonly>
+      </mat-form-field>
+    </div>
+  </div>
+  <ng-template #load>
+    <mat-spinner [diameter]="30"></mat-spinner>
+  </ng-template>
+</div>
+

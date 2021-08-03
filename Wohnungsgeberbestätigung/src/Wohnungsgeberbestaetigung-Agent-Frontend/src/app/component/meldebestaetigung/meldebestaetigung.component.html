@@ -1,0 +1,69 @@
+<div class="add-card">
+  <h3 class="bold" style="margin-bottom: 15px;">Meldebestätigung ausstellen</h3>
+  <form style="text-align: center;">
+    <div class="row">
+      <div class="col-md-6">
+        <mat-form-field class="add-input">
+          <mat-label>Vorname</mat-label>
+          <input matInput name="vorname" [(ngModel)]="vorname" placeholder="Vorname">
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>Familienname</mat-label>
+          <input matInput name="familienname" [(ngModel)]="familienname" placeholder="Familienname">
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>Rufname</mat-label>
+          <input matInput name="rufname" [(ngModel)]="rufname" placeholder="Rufname">
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>geboren am</mat-label>
+          <input matInput readonly [matDatepicker]="picker0" name="geborenAm" [(ngModel)]="geborenAm" placeholder="1.1.2000">
+          <mat-datepicker-toggle matSuffix [for]="picker0"></mat-datepicker-toggle>
+          <mat-datepicker #picker0></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>Geburtsort</mat-label>
+          <input matInput name="geburtsort" [(ngModel)]="geburtsort" placeholder="Geburtsort">
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>Staatsangeh.</mat-label>
+          <input matInput name="staatsangeh" [(ngModel)]="staatsangeh" placeholder="Staatsangeh.">
+        </mat-form-field>
+      </div>
+      <div class="col-md-6">
+        <mat-form-field class="add-input">
+          <mat-label>FamStand</mat-label>
+          <input matInput name="famStand" [(ngModel)]="famStand" placeholder="FamStand">
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>Religion</mat-label>
+          <input matInput name="religion" [(ngModel)]="religion" placeholder="Religion">
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>einzige Wohnung</mat-label>
+          <input matInput name="einzigeWohnung" [(ngModel)]="einzigeWohnung" placeholder="einzige Wohnung">
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>Einzug am</mat-label>
+          <input matInput readonly [matDatepicker]="picker1" name="einzugAm" [(ngModel)]="einzugAm" placeholder="1.1.2000">
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>gemeldet seit</mat-label>
+          <input matInput readonly [matDatepicker]="picker2"name="gemeldetSeit" [(ngModel)]="gemeldetSeit" placeholder="1.1.2000">
+          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+          <mat-datepicker #picker2></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field class="add-input">
+          <mat-label>Gemeindekennziffer</mat-label>
+          <input matInput name="gemeindeKennziffer" [(ngModel)]="gemeindeKennziffer" placeholder="Gemeindekennziffer">
+        </mat-form-field>
+      </div>
+      <div class="add-btn-background" style="margin: 30px 0 0 72px">
+        <a class="add-btn" (click)="submit();" mat-raised-button>Senden</a>
+      </div>
+    </div>
+  </form>
+</div>
+

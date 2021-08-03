@@ -1,0 +1,23 @@
+.add-card {
+  width: 650px !important;
+  padding: 0 100px 0 100px !important;
+}
+
+.add-input {
+  display: block !important;
+}
+
+.add-btn {
+  height: 50px;
+  width: 430px;
+  background: transparent linear-gradient(96deg, #FEE54B 0%, #FDD900 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 12px #FFDB0073;
+  border-radius: 50px;
+}
+
+.add-btn-background {
+  height: 50px;
+  width: 435px;
+  background: #FFFCE8 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+}

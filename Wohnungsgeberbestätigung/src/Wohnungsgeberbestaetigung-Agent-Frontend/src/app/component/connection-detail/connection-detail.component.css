@@ -1,0 +1,42 @@
+.top-menu {
+  height: 120px;
+  position: relative;
+  border-bottom: 1px solid #cdcdcd;
+  background: #eeeeee;
+}
+
+.top-menu div {
+  top: 50%;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.connection-text {
+  margin: 5px 0 0 65px;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.detail-card {
+  height: 300px;
+  position: relative;
+}
+
+.detail-card div {
+  top: 50%;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.approve-btn {
+  height: 55px;
+  width: 321px;
+  color: #FFFFFF;
+  background: #303030 0 0 no-repeat padding-box;
+  border-radius: 10px;
+  border: 0;
+}
