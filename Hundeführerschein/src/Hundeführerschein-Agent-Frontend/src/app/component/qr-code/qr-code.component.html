@@ -1,0 +1,24 @@
+<button class="close-dialog clickable" (click)="close()"><mat-icon>close</mat-icon></button>
+<div class="add-card">
+  <h3 class="bold" style="margin-bottom: 15px;">Bürger*in hinzufügen</h3>
+  <div style="text-align: center">
+    <mat-form-field class="add-input">
+      <mat-label>Name</mat-label>
+      <input matInput name="name" [(ngModel)]="name" placeholder="Name">
+    </mat-form-field>
+    <mat-form-field class="add-input">
+      <mat-label>E-Mail</mat-label>
+      <input matInput name="email" [(ngModel)]="email" placeholder="E-Mail Adresse">
+    </mat-form-field>
+    <mat-form-field class="add-input">
+      <mat-label>Telefonnummer</mat-label>
+      <input matInput name="telefonnummer" [(ngModel)]="telefonnummer" placeholder="Telefonnummer">
+    </mat-form-field>
+    <br>
+    <div class="add-btn-background">
+      <button class="add-btn" mat-raised-button (click)="sendConnection();">Bürger*in hinzufügen<mat-icon style="float: right; margin-top: 6px;">arrow_forward</mat-icon></button>
+    </div>
+    <br/>
+  </div>
+</div>
+

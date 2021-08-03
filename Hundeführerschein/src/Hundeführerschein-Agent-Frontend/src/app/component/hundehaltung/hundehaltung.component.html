@@ -1,0 +1,63 @@
+<button class="close-dialog clickable" (click)="close()"><mat-icon>close</mat-icon></button>
+<div class="add-card">
+  <h3 class="bold" style="margin-bottom: 15px;">Hundehaltererlaubnis</h3>
+  <form>
+    <div class="row">
+      <div class="col-md-5">
+        <mat-form-field class="add-input">
+          <mat-label>Halter</mat-label>
+          <input matInput name="halter" [(ngModel)]="halter" placeholder="Halter" readonly>
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="add-input">
+          <mat-label>Befreiung</mat-label>
+          <input matInput name="befreiung" [(ngModel)]="befreiung" placeholder="Befreiung">
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="add-input">
+          <mat-label>Rasse</mat-label>
+          <input matInput name="rasse" [(ngModel)]="rasse" placeholder="Rasse">
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="add-input">
+          <mat-label>Name des Hundes</mat-label>
+          <input matInput name="name" [(ngModel)]="name" placeholder="name">
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="add-input">
+          <mat-label>Fellfarbe</mat-label>
+          <input matInput name="fellfarbe" [(ngModel)]="fellfarbe" placeholder="fellfarbe">
+        </mat-form-field>
+      </div>
+      <div class="col-md-5 offset-md-2">
+        <mat-form-field class="add-input">
+          <mat-label>Geschlecht des Hundes</mat-label>
+          <input matInput name="geschlecht" [(ngModel)]="geschlecht" placeholder="geschlecht">
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="add-input">
+          <mat-label>Geburtstag des Hundes</mat-label>
+          <input matInput readonly [matDatepicker]="picker0" name="geburtstag" [(ngModel)]="geburtstag" placeholder="1.1.2000">
+          <mat-datepicker-toggle matSuffix [for]="picker0"></mat-datepicker-toggle>
+          <mat-datepicker #picker0></mat-datepicker>
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="add-input">
+          <mat-label>Chipnr.</mat-label>
+          <input matInput name="chipnr" [(ngModel)]="chipnr" placeholder="chipnr">
+        </mat-form-field>
+        <br/>
+        <mat-form-field class="add-input">
+          <mat-label>Haltungserlaubnis</mat-label>
+          <input matInput readonly [matDatepicker]="picker1" name="haltungsErlaubnis" [(ngModel)]="haltungsErlaubnis" placeholder="1.1.2000">
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+        </mat-form-field>
+      </div>
+    </div>
+    <br>
+    <div class="add-btn-background">
+      <a class="add-btn" (click)="submit();" mat-raised-button>Senden</a>
+    </div>
+  </form>
+</div>

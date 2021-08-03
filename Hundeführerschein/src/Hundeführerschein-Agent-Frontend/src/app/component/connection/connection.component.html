@@ -1,0 +1,25 @@
+<div class="search">
+  <div class="col-md-1" style="margin-left: 15px;">
+    <img  src="assets/img/Gruppe%2058.png" />
+  </div>
+  <div class="col-md-4 connection-text">
+    <h4>Mit dem Ordnungsamt verbundene Bürger*innen:</h4>
+  </div>
+  <mat-form-field class="col-md-4 offset-md-8">
+    <mat-label>Suchen</mat-label>
+    <input matInput [formControl]="searchActive" placeholder="Suchen" />
+    <mat-icon class="clickable material-icons color_yellow search-icon">search</mat-icon>
+  </mat-form-field>
+</div>
+
+<mat-list class="search-list">
+  <mat-list-item class="clickable-list" style="height: 75px;" *ngFor="let connection of $searchActive|async"
+                 (click)="storeState(connection.state); storeName(connection.alias);" [routerLink]="['detail', connection.id]">
+    <mat-icon class="material-icons color_green">fiber_manual_record</mat-icon>
+    <span style="margin-left: 10px; width: 650px">{{connection.alias}}</span>
+    <div class="offset-md-6">
+      <mat-icon class="clickable material-icons color_grey" style="margin: 15px 50px 0 0" (click)="$event.preventDefault(); $event.stopPropagation(); deleteConnection(connection.id)">delete_forever</mat-icon>
+      <img style="margin-bottom: 15px;" src="assets/img/Icon%20ionic-ios-arrow-forward-1.png" />
+    </div>
+  </mat-list-item>
+</mat-list>
