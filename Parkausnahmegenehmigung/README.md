@@ -21,4 +21,9 @@ Der Prozess gliedert sich, wie im folgenden Bild beschrieben.
 1. Bei der Antragsbearbeitung wird mit einem Verkehrsmanagementsystem (VMS) der Antrag geprüft und bearbeitet. 
    Die Genehmigung wird als QR-Code ausgestellt und in der Blockchain hinterlegt. 
 2. Der auszustellende Parkausweis wird mit dem QR-Code versehen.
-3. 
+3. Bei einer Überprüfung kann die prüfende Person via mobile App auf dem Smartphone den QR-Code scannen und erhält direkt das Ergebnis.
+
+Das Ergebnis kann wie im obigen Bild entweder eine erfolgreiche Verifizierung darstellen oder einen nicht legalen QR-Code, wie im unteren Bild dargestellt.
+
+![QR-Code_nicht_verifiziert](https://user-images.githubusercontent.com/86418664/129543285-b5928dae-2d89-4487-897a-5cb20eb114c3.png)
+
